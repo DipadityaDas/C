@@ -29,6 +29,12 @@
 // Among the others that C provides are \t for tab, \b for backspace,
 // \" for Double Quotes and \\ for backslash itself. 
 
+// Comments are lines which are not part of program
+// Single line Comment
+/* Multi
+   lines
+   comment */
+
 
 
 
