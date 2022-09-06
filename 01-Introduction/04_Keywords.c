@@ -5,7 +5,7 @@
 // For example:
 // int money;
 
-// Here, int is a keyword that indicates money is a variable of type int (integer).
+// Here, int is a keyword that indicates money is a variable of type int -> integer.
 
 // As C is a case sensitive language, all keywords must be written in lowercase. 
 // Here is a list of all 32 keywords allowed in ANSI C.
