@@ -13,5 +13,7 @@ int main()
     c = a + b;
     printf("Sum of a and b = %d \n", c);
 
+    printf("Sum of a and b without third variable = %d \n", a+b);
+
     return 0;
 }
