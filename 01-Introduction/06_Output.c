@@ -8,7 +8,7 @@ int main()
     char star = '*';
 
     // The First argument of printf funtion is a string of characters to be printed,
-    // with each % indicating where one of the order (2nd,3rd,..) arguments is to be 
+    // with each % indicating where one of the other (2nd,3rd,..) arguments is to be 
     // substituted, and in what form it is to be printed.
     // For instance %d specfies Integer Argument
     // %f specfies Floating-point Argument
