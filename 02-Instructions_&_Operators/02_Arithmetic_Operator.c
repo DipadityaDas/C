@@ -24,9 +24,9 @@ int main()
     printf("a*b = %d \n", c);
     c = a / b;
     printf("a/b = %d \n", c);
-    
+
     // modulus operator only works on integer. +ve numerator -> +ve remainder and -ve numerator -> -ve remainder
-    c = a % b; 
+    c = a % b;
     printf("Remainder when a divided by b = %d \n", c);
 
     return 0;
