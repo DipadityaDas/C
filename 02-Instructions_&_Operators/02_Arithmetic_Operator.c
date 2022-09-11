@@ -6,6 +6,9 @@
  * For example: a = b + c
  * Here, ‘+’ is the operator known as the addition operator and ‘a’ and ‘b’ are operands.
  * Note that b + c = a will not work as assignment always work from right to left.
+ * int   *  int      = int
+ * int   *  float    = float
+ * float *  float    = float
  */
 
 #include <stdio.h>
