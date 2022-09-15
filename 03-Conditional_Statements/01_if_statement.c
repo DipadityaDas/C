@@ -4,7 +4,7 @@
  * If you put some condition for a block of statements, the execution flow may change based on
  * the result evaluated by the condition. This process is called decision making in ‘C.’
  * In ‘C’ programming conditional statements are possible with the help of the following two constructs:
- * 1. if / if-else / Nested if-else statement
+ * 1. if / if-else / Nested if-else / Nested else-if statement
  * 2. switch...case
  * 3. Ternary Operator
  *
