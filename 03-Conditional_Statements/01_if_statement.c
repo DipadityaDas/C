@@ -29,7 +29,7 @@ int main()
 	int num1 = 45;
 	int num2 = 100;
 
-	if(num1 < num2) // Test condition
+	if (num1 < num2) // Test condition
 	{
 		printf("Number 2 is greater than Number 1.");
 	}
