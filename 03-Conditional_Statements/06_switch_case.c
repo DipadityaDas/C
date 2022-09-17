@@ -7,13 +7,13 @@
 	{
 		case value-1:
 				Block-1;
-				Break;
+				break;
 		case value-2:
 				Block-2;
-				Break;
+				break;
 		case value-n:
 				Block-n;
-				Break;
+				break;
 		default:
 				Block-1;
 				Break;
