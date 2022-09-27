@@ -15,5 +15,8 @@
  * 2. Data Abstraction.
  * 3. Modular design or Modularity.
  * 4. Easier to write programs.
- * 5. Code maintenance and debugging is easier. 
+ * 5. Code maintenance and debugging is easier.
+ * 
+ * Syntax of function declaration:
+	return_type    function_name( parameter_list );
  */
