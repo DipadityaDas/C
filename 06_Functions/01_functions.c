@@ -10,5 +10,10 @@
  * 
  * NOTE: Without main() function C program will not execute.
  * 
- *
+ * Advantages of using functions:
+ * 1. Reusability of code.
+ * 2. Data Abstraction.
+ * 3. Modular design or Modularity.
+ * 4. Easier to write programs.
+ * 5. Code maintenance and debugging is easier. 
  */
