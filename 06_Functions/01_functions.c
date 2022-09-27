@@ -18,9 +18,7 @@
  * 5. Code maintenance and debugging is easier.
  * 
  * Syntax of function declaration:
-	return_type    function_name( parameter_list ){
-		// Function Body
-	}
+	return_type    function_name( parameter_list );
  * 
  * 1. Return type - Return type defines the data type of value returned by the function.
  *    You must mention return type as void if your function does not return any value.
@@ -29,4 +27,19 @@
  * 3. Parameter list - A function may accept input. Parameter list contains input type and variable 
  *    name given to the function. Multiple inputs are separated using comma ,.
  * 
+ * Syntax of function definition:
+	return_type    function_name(parameter list)
+	{
+		// Function body
+	}
+ * 
+ * Function declaration and definition syntax must be same.
+ * 
+ * Syntax of function call:
+	function_name( parameter_list );
+ * 
+ * Function name - Name of the function to execute.
+ * Parameter list - Comma separated input given to the function. 
+ * Parameter list must match type and order mentioned in function declaration. 
+ * Leave parameter list as blank if function does not accept any input.
  */
