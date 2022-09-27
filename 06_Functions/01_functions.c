@@ -18,5 +18,15 @@
  * 5. Code maintenance and debugging is easier.
  * 
  * Syntax of function declaration:
-	return_type    function_name( parameter_list );
+	return_type    function_name( parameter_list ){
+		// Function Body
+	}
+ * 
+ * 1. Return type - Return type defines the data type of value returned by the function.
+ *    You must mention return type as void if your function does not return any value.
+ * 2. Function name - Function name is a valid C identifier that uniquely identifies the function. 
+ *    You must follow identifier naming rules while naming a function.
+ * 3. Parameter list - A function may accept input. Parameter list contains input type and variable 
+ *    name given to the function. Multiple inputs are separated using comma ,.
+ * 
  */
