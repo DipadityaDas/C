@@ -14,7 +14,7 @@ int main()
 
     int Number = 100; // Variables are case-sensitive
 
-    char _fail = "#"; // 1st Character is Alphabet or '_'
+    char _fail = "#"; // 1st Character of a single variable is Alphabet or '_'
     char _pass = "$"; 
 
     long electricity_bill = 280; // No Blank space or comma between a single variable.
