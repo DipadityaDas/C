@@ -3,16 +3,14 @@
 
 int main()
 {
-	int reminder, sum = 0, i, originalNum;
+	int sum = 0, i, originalNum;
 
 	printf("Enter number: ");
 	scanf("%d", &originalNum);
 
 	for (i = 1; i <= originalNum / 2; i++)
 	{
-		reminder = originalNum % i;
-
-		if (reminder == 0)
+		if (originalNum % i == 0)
 		{
 			sum = sum + i;
 		}
