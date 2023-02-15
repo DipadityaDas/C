@@ -4,19 +4,25 @@
 
 int main()
 {
-	int num1, num2, i, hcf;
+	int i, num1, num2, min, hcf = 1;
 
-	printf("Enter two integers: ");
-	scanf("%d %d", &num1, &num2);
+	/* Input two numbers from user */
+	printf("Enter any two numbers to find HCF: ");
+	scanf("%d%d", &num1, &num2);
 
-	for (i = 1; i <= num1 && i <= num2; ++i)
+	/* Find minimum between two numbers */
+	min = (num1 < num2) ? num1 : num2;
+
+	for (i = 1; i <= min; i++)
 	{
-		// Checks if i is factor of both integers
+		/* If i is factor of both number */
 		if (num1 % i == 0 && num2 % i == 0)
+		{
 			hcf = i;
+		}
 	}
 
-	printf("G.C.D./H.C.F. of %d and %d is %d", num1, num2, hcf);
+	printf("HCF of %d and %d = %d\n", num1, num2, hcf);
 
 	return 0;
 }
