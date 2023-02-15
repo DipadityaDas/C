@@ -1,4 +1,4 @@
-// Write a C Program to find HCF/GCD of two positive number using Division Method.
+// Write a C Program to find HCF/GCD of two positive number using for loop
 
 #include <stdio.h>
 
