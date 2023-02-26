@@ -20,8 +20,8 @@ int main()
 	largest = arr[0];
 	for (i = 1; i < size; ++i)
 	{
-		if(largest < arr[i])
-		largest = arr[i];
+		if (largest < arr[i])
+			largest = arr[i];
 	}
 
 	printf("The Largest Number in the Array : %d", largest);
