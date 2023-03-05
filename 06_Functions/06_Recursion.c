@@ -21,6 +21,11 @@
  * at each recursive call. Once the value is returned from the corresponding function, the stack gets destroyed.
  * Recursion involves so much complexity in resolving and tracking the values at each recursive call.
  * Therefore we need to maintain the stack and track the values of the variables defined in the stack.
+ * 
+ * Anything that can be done with Iteration, can be done with recursion and vice-versa.
+ * Recursion can sometimes give the most simple solution.
+ * Base Case is the condition which stops recursion.
+ * Iteration has infinite loop & Recursion has stack overflow.
  */
 
 #include <stdio.h>
