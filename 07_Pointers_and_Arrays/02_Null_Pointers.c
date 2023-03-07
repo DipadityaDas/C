@@ -42,17 +42,17 @@ int main(void)
 	int *ptr3 = 0;
 
 	if (ptr1 == 0)
-		printf("ptr1: NULL\n");
+		printf("ptr1: %s\n", ptr1);
 	else
 		printf("ptr1: NOT NULL\n");
 
 	if (ptr2 == 0)
-		printf("ptr2: NULL\n");
+		printf("ptr2: %s\n", ptr2);
 	else
 		printf("ptr2: NOT NULL\n");
 
 	if (ptr3 == 0)
-		printf("ptr3: NULL\n");
+		printf("ptr3: %s\n", ptr3);
 	else
 		printf("ptr3: NOT NULL\n");
 
