@@ -28,6 +28,21 @@
  * 2. Before dereferencing pointers, it is utilized to execute error handling.
  * 3. When we don't want to pass the memory location directly, we pass it as a function argument,
  *    which is then utilized to return from a function.
+ * 
+ * How Does Null Pointer Work in C?
+ * In C, a null pointer is a variable that has no valid address and is allocated to zero or NULL. 
+ * Normally, the null pointer does not point to anything. NULL is a macro constant defined in several 
+ * header files in the C programming language, including stdio.h, alloc.h, mem.h, stddef.h, and stdlib.h. 
+ * Also, take note that NULL should only be used when working with pointers.
+ * 
+ * Best Practices for NULL Pointer Usage
+ * To avoid programming errors, use a NULL pointer as a best practice.
+ * 1. Before using a pointer, make it a practice to assign it a value. 
+ *    Don't utilize the pointer before it's been initialized.
+ * 2. If you don't have a valid memory location to store in a pointer variable, set it to NULL instead.
+ * 3. Check for a NULL value before utilizing a pointer in any of your function code.
+ * 
+ * For more info: https://www.scaler.com/topics/null-pointer-in-c/
  *
  */
 
