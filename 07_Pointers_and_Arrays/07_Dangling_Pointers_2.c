@@ -48,3 +48,17 @@ int main()
 
 	return 0;
 }
+
+/**In this program, we can see that
+ * 1. First, an integer pointer ptr has been assigned a function call of the danglingPointer() function.
+ * 2. Now, danglingPointer() is invoked and execution of the function starts. danglingPointer() has a 
+ *    return type of int * i.e. the function will return an address of an integer block that can be 
+ *    stored in an integer pointer.
+ * 3. Inside the danglingPointer() function, we have an integer variable temp with local scope, temp 
+ *    has been assigned a value of 10. Now, we are returning the address of the temp variable and after 
+ *    returning the address, memory occupied by the danglingPointer() function will be deallocated along 
+ *    with the temp variable.
+ * 4. Now, the control will come back to main() function, and we have an address stored in ptr pointer, 
+ *    which is pointing to some deallocated memory (previously occupied by temp variable).
+ * 5. ptr is now acting as a Dangling Pointer because it is pointing to the deallocated memory block.
+*/
