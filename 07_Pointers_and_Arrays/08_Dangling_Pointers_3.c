@@ -37,7 +37,7 @@ int main()
 
 	// temp is now removed from the memory (out of scope)
 	// now ptr is a dangling pointer
-	printf("%d %d", *ptr, temp);
+	// printf("%d %d", *ptr, temp);
 
 	// as temp is not in the memory anymore so it can't be modified using ptr
 
@@ -50,6 +50,11 @@ int main()
 
 
 /**
+ * Compilation Error:
+ * 
+ * If we comment line 19 i.e. printf("%d %d", *ptr, temp); in the code, printf("%d", *ptr); 
+ * prints some garbage value in output.
+ * 
  * Explanation :
  * 
  * - In the first step, we have declared an integer pointer ptr without the initialization, 
