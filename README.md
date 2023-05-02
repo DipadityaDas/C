@@ -6,6 +6,17 @@ C is very widely used, straightforward, and can be compiled to a number of platf
 
 C is a general-purpose imperative programming language, with a small number of keywords and a large number of mathematical operators. C is also a high level programming language, which means it can communicate directly with hardware(Bare metal System).
 
+A List of Programming Languages Developed Before C Language:
+|	Language	|	Year of Development	|	Developer	|
+| ------------- | --------------------- | ------------- |
+| ALGOL         | 1960 | International Group |
+| BCPL          | 1967 | Martin Richards |
+| B             | 1970 | Ken Thompson |
+| Traditional C | 1972 | Dennis Ritchie |
+| K&R C         | 1978 | Kernighan and Ritchie |
+| ANSI C        | 1989 | ANSI Committee |
+| ANSI/ISO C    | 1990 | ISO Committee |
+| C99           | 1999 | Standardization Committee |
 
 
 
