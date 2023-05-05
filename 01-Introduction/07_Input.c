@@ -2,18 +2,18 @@
 
 int main()
 {
-    int a, b, c;
-    
-    printf("Enter the value of a = ");
-    scanf("%d", &a); // Ampersand symbol represents the address of the particular variable
-    
-    printf("Enter the value of b = ");
-    scanf("%d", &b);
+	int a, b, c;
 
-    c = a + b;
-    printf("Sum of a and b = %d \n", c);
+	printf("Enter the value of a = ");
+	scanf("%d", &a); // Ampersand symbol represents the address of the particular variable
 
-    printf("Sum of a and b without third variable = %d \n", a+b);
+	printf("Enter the value of b = ");
+	scanf("%d", &b);
 
-    return 0;
+	c = a + b;
+	printf("Sum of a and b = %d \n", c);
+
+	printf("Sum of a and b without third variable = %d \n", a+b);
+
+	return 0;
 }
