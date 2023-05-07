@@ -15,22 +15,22 @@
 
 int main()
 {
-    int a = 9, b = 4, c;
+	int a = 9, b = 4, c;
 
-    // There are Five Binary Arithmetic Operators: + - * / %
-    // % is Interger Division which truncates any fractional part.
-    c = a + b;
-    printf("a+b = %d \n", c);
-    c = a - b;
-    printf("a-b = %d \n", c);
-    c = a * b;
-    printf("a*b = %d \n", c);
-    c = a / b;
-    printf("a/b = %d \n", c);
+	// There are Five Binary Arithmetic Operators: + - * / %
+	// % is Interger Division which truncates any fractional part.
+	c = a + b;
+	printf("a+b = %d \n", c);
+	c = a - b;
+	printf("a-b = %d \n", c);
+	c = a * b;
+	printf("a*b = %d \n", c);
+	c = a / b;
+	printf("a/b = %d \n", c);
 
-    // modulus operator only works on integer. +ve numerator -> +ve remainder and -ve numerator -> -ve remainder
-    c = a % b;
-    printf("Remainder when a divided by b = %d \n", c);
+	// modulus operator only works on integer. +ve numerator -> +ve remainder and -ve numerator -> -ve remainder
+	c = a % b;
+	printf("Remainder when a divided by b = %d \n", c);
 
-    return 0;
+	return 0;
 }
