@@ -45,3 +45,15 @@
  *    For example:
  *    char str[] = {'H', 'e', 'l', 'l', 'o', '\0'};
  */
+
+#include <stdio.h>
+
+int main()
+{
+	char first_name[15] = "ANTHONY";
+	char first_name[15] = {'A', 'N', 'T', 'H', 'O', 'N', 'Y', '\0'}; // NULL character '\0' is required at end in this declaration
+	char string1[6] = "hello";										 /* string size = 'h'+'e'+'l'+'l'+'o'+"NULL" = 6 */
+	char string2[] = "world";										 /* string size = 'w'+'o'+'r'+'l'+'d'+"NULL" = 6 */
+	char string3[6] = {'h', 'e', 'l', 'l', 'o', '\0'};				 /*Declaration as set of characters ,Size 6*/
+	return 0;
+}
