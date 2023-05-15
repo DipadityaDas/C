@@ -21,5 +21,13 @@
  *    char str[3] = "Dipaditya";
  *    printf("%s",str); //Output: Dip
  *
- * 
+ * 2. Assigning a string literal without size
+ *    It is also possible to directly assign a string literal to a character array without any size.
+ *    The size gets determined automatically by the compiler at compile time.
+ *
+ *    For example:
+ *    char str[] = "DipadityaDas";
+ *
+ *    The critical thing to remember is that the name of the string, here "str" acts as a pointer
+ *    because it is an array.
  */
