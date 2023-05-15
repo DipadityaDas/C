@@ -11,14 +11,14 @@
  *    null character. If we want to store a string of size n, we should set the initial size to be n+1.
  *
  *    For example:
- *    char str[8] = "Dipaditya";
+ *    char str[10] = "Dipaditya\0";
  *
- *    The string length here is 7, but we have kept the size to be 8 to account for the Null character.
+ *    The string length here is 9, but we have kept the size to be 10 to account for the Null character.
  *    The compiler adds the Null character(\0) at the end automatically.
  *    NOTE: If the array cannot accommodate the entire string, it only takes characters based on its space.
  *
  *    For example:
- *    char str[3] = "Dipaditya";
+ *    char str[3] = "Dipaditya\0";
  *    printf("%s",str); //Output: Dip
  *
  * 2. Assigning a string literal without size

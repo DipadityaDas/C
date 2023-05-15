@@ -18,7 +18,7 @@
  * A string is a collection of characters (i.e., letters, numerals, symbols, and punctuation marks) in a
  * linear sequence. In C, a string is a sequence of characters concluded with a NULL character '\0'.
  * For example:
- * char str[] = "Scaler.\0";
+ * char str[] = "Dipaditya.\0";
  *
  * Like many other programming languages, strings in C are enclosed within double quotes(" "), whereas
  * characters are enclosed within single quotes(' '). When the compiler finds a sequence of characters
@@ -32,7 +32,7 @@
  * The general syntax of declaring a string in C is as follows:
  * char variable[array_size];
  *
- * 
+ *
  */
 
 // Write a program which declares two string data structures - employee_name & employee_number.
