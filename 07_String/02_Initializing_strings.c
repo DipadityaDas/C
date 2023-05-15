@@ -37,4 +37,11 @@
  *
  *    For example:
  *    char str[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
+ *
+ * 4. Assigning character by character without size
+ *    Like assigning directly without size, we also assign character by character with the Null Character
+ *    at the end. The compiler will determine the size of the string automatically.
+ *
+ *    For example:
+ *    char str[] = {'H', 'e', 'l', 'l', 'o', '\0'};
  */
