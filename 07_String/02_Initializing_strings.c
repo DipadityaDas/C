@@ -30,4 +30,11 @@
  *
  *    The critical thing to remember is that the name of the string, here "str" acts as a pointer
  *    because it is an array.
+ *
+ * 3. Assigning character by character with size
+ *    We can also assign a string character by character. However, it is essential to set the
+ *    end character as '\0'.
+ *
+ *    For example:
+ *    char str[6] = {'H', 'e', 'l', 'l', 'o', '\0'};
  */
