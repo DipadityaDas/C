@@ -18,7 +18,15 @@
  * and returned. The sz variable specifies the maximum allowed size for the user input and stream is used to denote
  * the stream from which the input is to be taken (usually stdin, but it can also be a file).
  *
+ * Comparision between gets() and fgets()
  *
+ *     Although gets() and fgets() are similar in the sense that they both take a complete line as input,
+ * but they also have many dissimilarities.
+ *
+ * While gets() can take string input in C only from the standard input stream,
+ * fgets() can take string input in C from both the standard input stream or from some file.
+ * Also, while the gets() method converts the \n character to \0 to make it a null-terminated string,
+ * the fgets() method does not do so. Instead, it adds a \0 symbol after the \n character to achieve the same.
  *
  */
 
