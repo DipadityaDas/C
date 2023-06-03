@@ -1,3 +1,17 @@
+/************************************************************************************************************************
+ * Output a String Without Spaces in C
+ *
+ * 1. using printf()
+ *    If we want to do a string output in C stored in memory and we want to output it as it is,
+ * then we can use the printf() function. This function, like scanf() uses the access specifier %s to output strings.
+ *
+ * The complete syntax for this method is:
+ * printf("%s", char *s);
+ *
+ * Here, s is the pointer which points to the array of characters which contains the string which we need to output.
+ *
+*/
+
 #include <stdio.h>
 
 int main()
