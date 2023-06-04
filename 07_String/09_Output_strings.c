@@ -2,31 +2,27 @@
 
 int main()
 {
-	// char array that stores complete name of the student
-	char name[50];
+	// array that stores first name of the student
+	char f_name[20];
+
+	// array that stores last name of the student
+	char l_name[20];
 
 	// take user input
-	printf("Enter your full name: \n");
+	printf("Enter your first name: \n");
 
-	// use gets() to take input with spaces
-	gets(name);
-
-	// char array that stores city of the student
-	char city_name[30];
+	// use fgets to get input
+	fgets(f_name, 20, stdin);
 
 	// take user input
-	printf("Enter your city name: \n");
+	printf("Enter your last name: \n");
 
-	// use scanf to take input without spaces
-	scanf("%s", city_name);
+	// use fgets to get input
+	fgets(l_name, 20, stdin);
 
-	// print name with space using printf
-	printf("Your name is %s \n", name);
-
-	printf("You live in ");
-
-	// print city using fputs
-	fputs(city_name, stdout);
+	// printing the input value using puts()
+	puts(f_name);
+	puts(l_name);
 
 	return 0;
 }
