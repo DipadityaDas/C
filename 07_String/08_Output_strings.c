@@ -1,3 +1,18 @@
+/*****************************************************************************************************************
+ * Output a String Without Spaces in C
+ *
+ * 2. using fputs()
+ *    The fputs() function can be used to output two strings in C without space in between as it does not transfer
+ * the control to a new line so that even if another string is printed after it, both of them will be on the same
+ * line.
+ *
+ * The complete syntax for this method is:
+ * int fputs(const char* strptr, FILE* stream);
+ *
+ * Here, s is the pointer which points to the array of characters which contains the string which we need to output.
+ *
+ */
+
 #include <stdio.h>
 
 int main()
