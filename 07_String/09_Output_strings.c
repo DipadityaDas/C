@@ -1,3 +1,21 @@
+/****************************************************************************************************************
+ * Output a String With Spaces in C
+ *
+ * 1. using puts()
+ *    Another function which we can use to output a string in C is the puts() function.
+ *
+ * The thing to note however is that after printing the given string in the output, the puts() function transfers
+ * the control to the next line. So any other string that we print after the execution of the puts()
+ * line will be printed in the next line by default and not in the same line.
+ *
+ * The complete syntax for this method is:
+ * int puts(const char* strptr);
+ *
+ * Here, strptr is the pointer which points to the array of characters which contains the string which
+ * we need to output.
+ * 
+ */
+
 #include <stdio.h>
 
 int main()
