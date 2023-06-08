@@ -13,7 +13,15 @@
  *
  * Here, strptr is the pointer which points to the array of characters which contains the string which
  * we need to output.
- * 
+ *
+ *
+ * Comparision between puts() and fputs() :
+ *
+ * The puts() and fputs() functions both are used to output strings to the user.
+ *
+ * While the puts() method converts the null termination character \0 to the newline character \n,
+ * the fgets() method does not do so. Hence, in the case of puts(), the control is transferred to a new line
+ * in the output, but in case of fputs(), it remains in the same line.
  */
 
 #include <stdio.h>
