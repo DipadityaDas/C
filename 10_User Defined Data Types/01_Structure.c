@@ -1,3 +1,13 @@
+/********************************************************************************************************************
+ * Structure in C Programming Language
+ *
+ * Structure in C is a user-defined data type. It is used to bind two or more similar or different data types or
+ * data structures together into a single type. The structure is created using the struct keyword, and a structure
+ * variable is created using the struct keyword and the structure tag name. A data type created using structure in C
+ * can be treated as other primitive data types of C to define a pointer for structure, pass structure as a function
+ * argument or a function can have structure as a return type.
+ */
+
 #include <stdio.h>
 #include <string.h>
 
