@@ -1,3 +1,9 @@
+/******************************************************************************************************************
+ * Introduction to Nested Structure in C
+ *
+ * The structure is a user-defined data type used to store a group of items of different data types as a single
+ * data type. Each element of a structure is known as its member.
+*/
 #include <stdio.h>
 #include <string.h>
 
