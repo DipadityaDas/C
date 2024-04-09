@@ -9,7 +9,7 @@ int main()
 	char star = "*"; // Character Data Type
 	float pi = 3.14; // Floating point Data Type
 
-	int age = 25;   
+	int age = 25;
 	age = 60;        // Value of the variable can be changed within a program
 
 	int Number = 100; // Variables are case-sensitive
