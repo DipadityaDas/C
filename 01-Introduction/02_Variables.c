@@ -6,7 +6,7 @@ int main()
 	// which can be changed during runtime.
 
 	int number = 25; // Integer Data Type
-	char star = "*"; // Character Data Type
+	char star = '*'; // Character Data Type
 	float pi = 3.14; // Floating point Data Type
 
 	int age = 25;
